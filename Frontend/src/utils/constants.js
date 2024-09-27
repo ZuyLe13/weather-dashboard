@@ -1,0 +1,1 @@
+export const API_ROOT = 'https://weather-dashboard-server.onrender.com/api'

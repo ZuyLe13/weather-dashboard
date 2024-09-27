@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react"
 import Forecast from "./components/Forecast"
 import Subscription from "./components/Subscription"
-
-const baseApi = 'http://localhost:3000/api'
+import { API_ROOT } from './utils/constants'
 
 function App() {
   const [weatherData, setWeatherData] = useState(null)
@@ -31,7 +30,7 @@ function App() {
 
   // Hàm lấy dữ liệu thời tiết
   const fetchWeatherData = async (city) => {
-    const url = `${baseApi}/forecast?city=${city}`
+    const url = `${API_ROOT}/forecast?city=${city}`
 
     try {
       const response = await fetch(url)

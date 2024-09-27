@@ -1,6 +1,5 @@
 import { useState } from "react"
-
-const baseApi = 'http://localhost:3000/api'
+import { API_ROOT } from '../utils/constants'
 
 function Subscription() {
   const [email, setEmail] = useState('')
@@ -12,7 +11,7 @@ function Subscription() {
       return
     }
 
-    const response = await fetch(`${baseApi}/register`, {
+    const response = await fetch(`${API_ROOT}/register`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email }),
@@ -34,7 +33,7 @@ function Subscription() {
       return
     }
 
-    const response = await fetch(`${baseApi}/unsubscribe`, {
+    const response = await fetch(`${API_ROOT}/unsubscribe`, {
       method: 'DELETE',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email }),

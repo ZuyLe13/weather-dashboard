@@ -6,6 +6,8 @@ A weather forecast that allows users to get the current weather conditions and t
 
 ## Demo Link
 
+https://weather-dashboard-dile.netlify.app/
+
 ## Technical
 
 - Frontend: ReactJS, TailwindCSS
@@ -59,7 +61,7 @@ npm run dev # Frontend
 npm start # Backend
 ```
 
-8. Contact
+## Contact
 
 My Name - Lê Anh Duy - duyle131103@gmail.com
-Project Link: https://github.com/ZuyLe13/weather-dashboard
+<br/>Project Link: https://github.com/ZuyLe13/weather-dashboard

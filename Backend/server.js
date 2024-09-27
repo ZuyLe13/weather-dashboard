@@ -65,7 +65,7 @@ app.post('/api/register', async (req, res) => {
     await newUser.save();
 
     // Tạo URL xác nhận email
-    const confirmationUrl = `http://localhost:3000/api/confirm-email?token=${token}&email=${email}`
+    const confirmationUrl = `https://weather-dashboard-server.onrender.com/api/confirm-email?token=${token}&email=${email}`
     const mailOptions = {
       from: process.env.EMAIL,
       to: email,

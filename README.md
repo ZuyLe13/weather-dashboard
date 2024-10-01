@@ -15,7 +15,7 @@ https://weather-dashboard-dile.netlify.app/
 - Database: MongoDB
 - API: https://www.weatherapi.com/
 - Send email: nodemailer
-- Deployment:
+- Deployment: [netlify](https://www.netlify.com/), [render](https://render.com/)
 - Other tools: fetch API, node-cron, mongoose
 
 ## Features
@@ -41,10 +41,10 @@ git clone https://github.com/ZuyLe13/weather-dashboard.git
 npm install
 ```
 
-5. Sign in with app passwords to use nodemailer
+5. Sign in with app passwords to use nodemailer.
    For more information, please refer to the [Documentation](https://support.google.com/accounts/answer/185833?visit_id=638630268530892967-3715124080&p=InvalidSecondFactor&rd=1)
 
-6. Enter DB_USERNAME, DB_PASSWORD in MongoDB Atlas project, API_KEY, your EMAIL and PASSWORD that generated at [Sign in with app passwords](https://myaccount.google.com/apppasswords?rapt=AEjHL4P9QbVxjfaHkBL_wXg0j-vHG1845Hm9LAGWjNNp7zdBViwH8lFDccIv6EmJgnUzxzW4YmuEmC3Khf5kXltXGj6Zxvxv1axWIXvaCRGnk3JIP3K1j9I).
+6. Enter DB_USERNAME, DB_PASSWORD from MongoDB Atlas project, API_KEY, your EMAIL and PASSWORD that generated at [Sign in with app passwords](https://myaccount.google.com/apppasswords?rapt=AEjHL4P9QbVxjfaHkBL_wXg0j-vHG1845Hm9LAGWjNNp7zdBViwH8lFDccIv6EmJgnUzxzW4YmuEmC3Khf5kXltXGj6Zxvxv1axWIXvaCRGnk3JIP3K1j9I).
 
 ```sh
 DB_USERNAME=
